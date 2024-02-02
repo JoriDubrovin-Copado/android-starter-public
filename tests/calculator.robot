@@ -8,6 +8,12 @@ Check That 98+4 Equals 102
     [Documentation]     Check that 98+4 equals 102
     [Tags]              OnePlus    Samsung
 
+
+
+
+
+
+
     AppState            Calculator
     ClickText           9
     ClickText           8
@@ -15,6 +21,9 @@ Check That 98+4 Equals 102
     ClickText           4
     ClickItem           eq         # here we use part of resource-id to click "=" -button
     VerifyText          102
+
+    
+
 
 Check That 1+1x100 Equals 101 usign index
     [Documentation]     Check that 1+1x100 equals 101
